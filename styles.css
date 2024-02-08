@@ -1,0 +1,140 @@
+html,body{
+    width: 100%;
+    background:linear-gradient(50deg, rgb(206, 12, 12), rgb(6, 29, 234));
+    background-repeat: no-repeat;
+    height:auto;
+    scroll-behavior: smooth;
+}
+.links{
+    border: 2px outset white;
+    padding: 10px;
+    margin: 20px;
+    position: sticky;
+    top: 0;
+    background-color: none;
+    z-index: 1000;
+    background-color:rgba(255,255,255,0.2); ;
+}
+.home{
+    margin: 20px;
+    margin-top: 30px;
+    border: 2px outset white;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.2);
+}
+a{
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+    border: 2px outset white;
+    margin: 10px;
+}
+a:hover{
+    color: white;
+    background-color: rgb(38, 3, 38);
+}
+.col-md-4{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.col-md-8{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    flex-direction: column;
+}
+
+@media screen and (max-width: 650px) {
+    html {
+        height: auto;
+    }
+}
+
+img{
+    margin: 20px;
+    cursor: pointer;
+}
+img:hover{
+    opacity: 0.7;
+}
+h2{
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family: 'Brush Script MT',cursive;
+    font-size: 50px;
+}
+#aboutme{
+    margin: 20px;
+    margin-top: 30px;
+    border: 2px outset white;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.2);
+}
+.aboutme{
+    margin: 30px;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+    
+}
+@media screen and (max-width:650px) {
+    .aboutme{
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .links{
+        padding: 0px;
+    }
+    
+}
+.About{
+    font-style: oblique;
+    word-spacing: 2px;
+    font-size: 20px;
+}
+#skills{
+    color: white;
+    margin: 20px;
+    margin-top: 40px;
+    border: 2px outset white;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.2);
+}
+ul.myskills{
+    list-style:square;
+    padding: 20px;
+    font-size: 20px;
+}
+.Technical-skills, .Soft-skills{
+    display: flex;
+    flex-direction: column;
+}
+#contactme,#projects{
+    border: 2px outset white;
+    margin: 20px;
+    background-color: rgba(255,255,255,0.2);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(215, 237, 250);
+    padding: 10px;
+    padding: 10px;
+}
+label{
+    font-size:20px ;
+    font-style: oblique;
+}
+p{
+    font-size: 20px;
+    font-style:italic;
+}
