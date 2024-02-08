@@ -39,7 +39,7 @@ This repository contains the code for my personal portfolio website. It is desig
 ![Contact Me Section](contactme.png)
 
 ## How to Use
-1. Clone the repository: `git clone https://github.com/Venkatrao Dasari/PersonalPortfolio.git`
+1. Clone the repository: `git clone https://github.com/venkatarao2255/PersonalPortfolio.git`
 2. Open `index.html` in a web browser.
 
 Feel free to explore the different sections and learn more about me and my work!
